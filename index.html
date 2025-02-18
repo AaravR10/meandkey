@@ -5,16 +5,12 @@
 </head>
 <body>
 <div id="swf-container" dir="ltr" style="text-align: left;" trbidi="on">
-</div>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-<script>
-window.addEventListener('load', (event) => {
-  const ruffle = window.RufflePlayer.newEl('#swf-container', {
-    publicPath: '/',
-    polyfills: true,
-  });
-  ruffle.load({url: 'https://aaravr10.github.io/meandkey/blob/main/meandthekey.swf'});
-});
-</script>
+
+<div class="swf"dir="ltr" style="text-align: left;" trbidi="on">
+
+        <embed height="100%" pluginspage=" http://www.macromedia.com/go/getflashplayer" src="https://aaravr10.github.io/meandkey/blob/main/meandthekey.swf" type="application/x-shockwave-flash" width="100%"></embed>
+
+</div>
 </body>
 </html>
